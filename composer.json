@@ -1,0 +1,24 @@
+{
+    "name": "paperclip/fabo",
+    "description": "Integración de la API fabo.dev de Paperclip.",
+    "license": "GPL-3.0-or-later",
+    "keywords": ["cpe", "facturas", "electronicas", "perú"],
+    "homepage": "https://facturaselectronicas.biz",
+    "authors": [
+        {
+            "name": "Oliver Etchebarne",
+            "email": "yo@drmad.org",
+            "homepage": "https://drmad.org"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paperclip\\Fabo\\": "src/"
+        }
+    }
+
+}
